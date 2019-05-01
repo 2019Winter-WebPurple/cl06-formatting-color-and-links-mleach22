@@ -1,0 +1,40 @@
+/*
+* Megan Leach
+* April 12, 2019
+* semantic elements
+*/
+
+/* The Universal Selector */
+
+* {
+
+}
+
+/* Body properties here */
+
+body {
+    width: 75%; /*centers the work on the page*/ 
+    margin: auto; /*specifies the margin space*/
+    background-color: mistyrose; /*this is the color of the background for the page*/
+    font-family: "Times New Roman", Times, serif; /*specifies the font*/
+}
+
+#elephant1 {width: 700px; height: 350px;}/*this is the format of image sizing*/
+
+header {background-color: azure;}
+main {background-color: lightgoldenrodyellow}
+footer {background-color: lightcoral}
+
+h1 {
+    font-size: 150%;
+    text-align: center;
+    text-decoration: underline overline;
+}
+
+img {float: right; }
+
+a:hover {
+    color: cyan;
+    text-decoration: underline, overline;
+    font-size: 150%;
+}
